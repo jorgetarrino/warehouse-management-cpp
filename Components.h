@@ -28,6 +28,7 @@ class Components {
     int getNumberStock() const;
 
     virtual void showInfo() const = 0;
+    virtual ~Components() {}
 };
 
 

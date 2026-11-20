@@ -18,7 +18,7 @@ public:
     User();
     User(string userName, string password);
     User(const User &user);
-    ~User();
+    virtual ~User();
 
     string getName() const;
     void setName(const string & name);

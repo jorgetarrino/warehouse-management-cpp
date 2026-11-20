@@ -49,7 +49,6 @@ On first run there are no data files yet, so a default admin is created (user `a
 
 This is the version submitted in May 2026. Known issues I plan to fix:
 
-- `User` and `Components` need virtual destructors.
 - Pending orders are checked per client, not globally from oldest to newest.
 - No exception handling and no `<<` / `>>` operator overloads yet.
 - Menus loop forever if standard input is closed.
